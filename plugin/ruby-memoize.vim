@@ -15,6 +15,7 @@ function! s:ToggleMemoize()
   let paste_mode = &paste
 
   try
+    normal! $
     exe "normal! ?def\<cr>"
     normal! wywj0w
 
